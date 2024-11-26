@@ -31,6 +31,7 @@ public class MyPanel extends JPanel {
 		// g2D.setStroke(new BasicStroke(5));
 		// g2D.drawLine(0, 0, 500, 500);
 
+		// ----RECTANGLE---
 		g2D.setPaint(Color.pink);
 		g2D.drawRect(0, 0, 100, 200);
 		g2D.fillRect(0, 0, 100, 200);
@@ -50,6 +51,7 @@ public class MyPanel extends JPanel {
 		// g2D.setPaint(Color.white);
 		// g2D.fillArc(0, 0, 100, 100, 180, 180);
 
+		// ----TRIANGLE---
 		int[] xPoints = { 150, 250, 350 }; // triangle
 		int[] yPoints = { 300, 150, 300 };
 		g2D.setPaint(Color.yellow);
